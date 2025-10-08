@@ -1,0 +1,54 @@
+# ----------------------------------------------------------------------
+# Arquivos de Dados Brutos (Ignorados para evitar o erro HTTP 408)
+# ----------------------------------------------------------------------
+# Pastas de dados inteiras (o ideal)
+dadosEvasao/
+dadosCriminais/
+
+# Arquivos específicos que causaram o erro (se não estiverem em pastas dedicadas)
+censo_escolar_sp_2023.csv
+SPDadosCriminais_2024.csv
+microdados_ed_basica_2024.csv
+SPDadosCriminais_2023.csv
+microdados_ed_basica_2023.csv
+
+# Adicione também os outros que havíamos listado para segurança
+cursos_tecnicos_sp_2023.csv
+cursos_tecnicos_sp_2024.csv
+estimativa_dou_2024.xls
+# Planilhas de Criminalidade
+SPDadosCriminais_2023.csv
+SPDadosCriminais_2024.csv
+
+
+# Planilhas do Censo Escolar (Evasão)
+censo_escolar_sp_2023.csv
+censo_escolar_sp_2024.csv
+
+
+# Planilhas de Cursos Técnicos
+cursos_tecnicos_sp_2023.csv
+cursos_tecnicos_sp_2024.csv
+
+# Se você estiver usando dados de população e shapefile, inclua também:
+estimativa_dou_2024.xls
+populacao_sp.csv
+
+# Arquivos Geoespaciais (se aplicável, para o geopandas)
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# ----------------------------------------------------------------------
+# Arquivos de Sistema e Cache (Melhores Práticas)
+# ----------------------------------------------------------------------
+
+# Pastas de cache e ambientes virtuais
+__pycache__/
+venv/
+.ipynb_checkpoints/
+
+# Logs e arquivos temporários do sistema
+*.log
+*.tmp
