@@ -4,6 +4,8 @@
 # Pastas de dados inteiras (o ideal)
 dadosEvasao/
 dadosCriminais/
+dadosPopulacao/
+Sp_Municipios/
 
 # Arquivos específicos que causaram o erro (se não estiverem em pastas dedicadas)
 censo_escolar_sp_2023.csv
