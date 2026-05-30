@@ -49,5 +49,5 @@ O aplicativo agora integra simulações estatísticas locais treinadas com dados
 ## 📸 Demonstração da Interface
 
 <p align="center">
-  <video src="" width="100%" controls></video>
+  <video src="videos/demo.mp4" width="100%" controls></video>
 </p>
