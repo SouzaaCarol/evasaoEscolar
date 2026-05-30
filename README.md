@@ -1,6 +1,6 @@
 # 🎓 Evasão Escolar em SP: Criminalidade vs. Oferta Técnica
 
-Este projeto realiza uma análise econométrica e geográfica detalhada para identificar os fatores que influenciam a Taxa de Evasão Escolar no Ensino Médio nos municípios de São Paulo. 
+Este projeto realiza uma análise econométrica e geográfica detalhada para identificar os fatores que influenciam a Taxa de Evasão Escolar nos municípios de São Paulo.
 
 > **Nota de Atualização:** Este ecossistema foi recentemente aprimorado com o auxílio de **Inteligência Artificial (Google AI)**, otimizando o tempo de desenvolvimento e implementando uma interface de alta fidelidade e modelos preditivos avançados.
 
@@ -46,8 +46,8 @@ O aplicativo agora integra simulações estatísticas locais treinadas com dados
 
 ---
 
-## 📸 Demonstração
+## 📸 Demonstração da Interface
 
-
-
-
+<p align="center">
+  <video src="" width="100%" controls></video>
+</p>
