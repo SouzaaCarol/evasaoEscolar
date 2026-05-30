@@ -1,0 +1,6 @@
+{
+  "name": "Análise de Evasão e Oferta Técnica SP",
+  "description": "Análise interativa da relação entre criminalidade, evasão escolar e impacto da oferta de vagas de ensino técnico no estado de São Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
