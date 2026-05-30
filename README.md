@@ -1,37 +1,53 @@
 # 🎓 Evasão Escolar em SP: Criminalidade vs. Oferta Técnica
 
-Este projeto de Data Science realiza uma análise econométrica e geográfica detalhada para identificar os fatores que influenciam a **Taxa de Evasão Escolar no Ensino Médio** nos municípios de São Paulo.
+Este projeto realiza uma análise econométrica e geográfica detalhada para identificar os fatores que influenciam a Taxa de Evasão Escolar no Ensino Médio nos municípios de São Paulo. 
 
-O objetivo inicial de testar a influência da criminalidade foi desafiado pelos dados, que apontaram para um fator de retenção mais robusto e acionável: a **Oferta de Cursos Técnicos**.
+> **Nota de Atualização:** Este ecossistema foi recentemente aprimorado com o auxílio de **Inteligência Artificial (Google AI)**, otimizando o tempo de desenvolvimento e implementando uma interface de alta fidelidade e modelos preditivos avançados.
 
 ---
 
-## 🎯 Conclusão e Resultados Principais
+## 🚀 Novas Funcionalidades (v2.0)
 
-| Hipótese Inicial | Conclusão Estatística | Implicação para a Política Pública |
+A arquitetura de dados agora conta com um ecossistema visual e preditivo robusto, focado em fidelidade científica e acadêmica:
+
+### 🗺️ 1. Cartografia de Alta Fidelidade: Mapa Isomórfico
+Um **Visualizador Geopolítico Interativo** dos 645 municípios paulistas, simulando um sistema profissional de Informação Geográfica (GIS):
+* **Três Modos de Visualização:**
+    * **K-Means:** Classificação em 3 níveis de prioridade (Alta Urgência, Atenção e Estruturado).
+    * **Evasão Escolar (%):** Gradiente acadêmico *OrRd* (Laranja-Vermelho).
+    * **Vagas Técnicas:** Gradiente acadêmico *GnBu* (Verde-Azul).
+* **Controles Avançados:** Zoom tátil, Hover Inspector (detalhes ao passar o mouse) e painéis dinâmicos de dados municipais.
+
+### 📊 2. Machine Learning & Inteligência Artificial
+O aplicativo agora integra simulações estatísticas locais treinadas com dados reais:
+* **Engine K-Means:** Agrupamento multidimensional para definição de prioridades de expansão de vagas.
+* **Simulador Preditivo (Random Forest):** Calcula a quantidade exata de novas vagas técnicas necessárias para atingir metas específicas de evasão, considerando a curva de saturação da política pública.
+* **Análise OLS Multivariada:** Comprova o coeficiente protetor do ensino técnico e a irrelevância estatística da criminalidade no abandono escolar.
+
+---
+
+## 🎯 Conclusão e Resultados Principais (Baseline)
+
+| Hipótese | Conclusão Estatística | Implicação Política |
 | :--- | :--- | :--- |
-| Criminalidade alta causa evasão. | A Criminalidade é **Estatisticamente Não Significativa (n.s.)**. | O problema da evasão tem raízes em oportunidades, não em segurança. |
-| Oferta de Oportunidades | O Coeficiente da Oferta Técnica é **Negativo e Altamente Significativo (p < 0.01)**. | **Priorizar a expansão da oferta técnica** é a política mais eficaz para diminuir a evasão. |
+| **Criminalidade causa evasão** | Não Significativa (ns) | O foco deve ser oportunidade, não segurança. |
+| **Oferta de Ensino Técnico** | Negativo e Altamente Significativo (p < 0,01) | Expandir oferta técnica é a via mais eficaz. |
 
 ---
 
-## 🛠️ Tecnologias e Metodologia
+## 🛠️ Tecnologias Utilizadas
 
-O projeto foi desenvolvido em Python, com foco no cruzamento de dados de diversas fontes e na modelagem econométrica.
-
-| Etapa | Ferramentas Utilizadas | Descrição Técnica |
-| :--- | :--- | :--- |
-| **Tratamento de Dados** | `pandas` | Limpeza, padronização (`normalize_name`) e tratamento do tipo de dado (`CO_MUNICIPIO` como **`Int64`** para aceitar NaNs). |
-| **Modelagem Estatística** | `statsmodels` | Aplicação da Regressão OLS para isolar o impacto das variáveis, após tratar a Matrícula Técnica com **Logaritmo** (`np.log`). |
-| **Visualização Geográfica** | `geopandas` | Criação de mapas para contrastar visualmente os *hotspots* de evasão com a distribuição da oferta técnica. |
+* **Linguagem:** Python
+* **Engenharia de Dados:** Pandas, NumPy
+* **Modelagem Estatística:** Statsmodels (Regressão OLS)
+* **Machine Learning:** Scikit-Learn (K-Means & Random Forest)
+* **Geoprocessamento:** GeoPandas & Folium/Plotly
+* **Interface e IA:** Desenvolvido com auxílio de Google AI para otimização de UI/UX e lógica preditiva.
 
 ---
 
-## 📊 Principais Resultados
+## 📸 Demonstração
 
-A análise reforça a conclusão de que a **Matrícula Técnica é o principal fator de retenção**, enquanto a criminalidade mostra-se irrelevante.  
-Os resultados estatísticos e gráficos apontam que:
 
-- O coeficiente da **Oferta Técnica** é altamente significativo e atua como fator redutor da evasão.  
-- A **Criminalidade não apresentou relevância estatística**.  
-- Municípios com maior oferta técnica apresentam **menores taxas de evasão**.  
+
+
