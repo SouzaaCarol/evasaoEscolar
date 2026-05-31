@@ -49,3 +49,8 @@ O aplicativo agora integra simulações estatísticas locais treinadas com dados
 ## 📸 Demonstração da Interface
 
 https://github.com/SouzaaCarol/evasaoEscolar/raw/main/videos/demo.mp4
+
+## 🌐 Link do Aplicativo Publicado
+
+O dashboard interativo pode ser acessado em tempo real através do link abaixo:
+👉 [Clique aqui para acessar o projeto](SUBSTITUA_PELA_SUA_URL_AQUI)
