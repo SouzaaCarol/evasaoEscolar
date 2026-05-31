@@ -48,6 +48,4 @@ O aplicativo agora integra simulações estatísticas locais treinadas com dados
 
 ## 📸 Demonstração da Interface
 
-<p align="center">
-  <video src="videos/demo.mp4" width="100%" controls></video>
-</p>
+https://github.com/SouzaaCarol/evasaoEscolar/raw/main/videos/demo.mp4
