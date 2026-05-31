@@ -53,4 +53,4 @@ https://github.com/SouzaaCarol/evasaoEscolar/raw/main/videos/demo.mp4
 ## 🌐 Link do Aplicativo Publicado
 
 O dashboard interativo pode ser acessado em tempo real através do link abaixo:
-👉 [Clique aqui para acessar o projeto](SUBSTITUA_PELA_SUA_URL_AQUI)
+👉 [Clique aqui para acessar o projeto]([SUBSTITUA_PELA_SUA_URL_AQUI](https://an-lise-de-evas-o-e-oferta-t-cnica-sp-502183049024.us-east1.run.app/))
